@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Todo</title>
+</head>
+<body>
+  <div class="toast">
+  </div>
+  <header>
+    <h1>Todo</h1>
+  </header>
+
+  <main class="container">
+    <div class="card__container">
+      <div class="card created">
+        <h3>Tarefas Criadas</h3>
+        <strong id="created">0</strong>
+      </div>
+      <div class="card finished">
+        <h3>Tarefas Concluídas</h3>
+        <strong id="finished">0</strong>
+      </div>
+    </div>
+
+    <form class="input__wrapper">
+      <input name="task" type="text" class="input" placeholder="Nova Tarefa">
+      <button class="btn">
+        Adicionar
+      </button>
+    </form>
+
+    <ul class="content">
+    </ul>
+  </main>
+
+  <footer>
+    <p>Moveup Academy &copy; 2023 | Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
